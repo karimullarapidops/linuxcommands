@@ -1,3 +1,86 @@
-hjk njk
-nnl
-n lk
+Linux Test (06-03-2019)
+
+1. ) How i can see from command prompt that on which directory you are ?
+
+Ans.)   Pwd
+
+2.)  How i can change permission of file to read only for that user ?
+
+Ans.)   chmod 400 filename
+
+3.)  How i can create new user ?
+
+Ans.)  adduser username [only for Root]
+
+4.) How i can install mysql in ubuntu ?
+
+Ans.)  sudo apt-get install mysql
+
+5.) How i can set insert mode on VI editor ? And how i can save data in file using VI editor ?
+
+Ans.)  Enter  ‘vi<filename>’ command then enter i to Insert in that file and then after          entering data press Esc followed by shift+colon and then enter wq or q! to save it
+
+6.)  if i want to search from history of command then which short cut i can use ?
+
+Ans.)   We can reverse search history of command using [CTR + R] shortcut 
+
+7.) Write a command which gives me running mysql process and its pid?
+
+Ans.) ps | grep mysql
+
+8.)  which command helps me to copy file from my local machine to remote machine ? Give one example?
+
+Ans.)  cp filename destinationfolder
+
+9.) Write a command that will display all .txt files, including its individual permission?
+
+Ans.)  ls -l *.txt
+
+10.)  How can i terminate all process at once ?
+
+Ans.)   killall -u username
+
+11.)   How i can get first 10 lines of any file ?
+
+Ans.)  cat filename | head
+
+12.)   How i can know free space on disk ?
+
+Ans.)  free
+
+13.)   write command which remove folder from my machine?
+
+Ans.)  rm -R directoryname
+
+14.)  Which command helps me to search contents of a file for particular pattern ?
+
+Ans.)  grep -i ‘searchcontent’ filename
+
+15.)  Write command to display current date in the form dd/mm/yyyy.?
+
+Ans.)  date+%d%m%Y
+
+16.)  How i can remove all lines from file ? (without removing that file)?
+
+Ans.)  echo > filename
+
+17.)  The permission rwxr—r— represented in octal expression will be ?
+A. 777
+B. 511
+C. 744
+D. 711
+
+Ans.)  C.744
+
+18.) Which command can be use for change user password ?
+
+Ans.) passwd
+
+19.) How and where i can set test.rapidops.com against localhost ?
+
+Ans.)  
+
+20.)   Create file and set its group as root?
+
+Ans.)   cat > filename
+           chgrp root filename
